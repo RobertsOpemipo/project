@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang='en'>
+	
+	<head>
+		<title>BS Template</title>
+		<meta charset="utf-8">
+		<meta name='viewport' content='width=device-width,initial-scale=1,shrink-to-fit=no'>
+		<meta name="description" content="portfolio webdesign website">
+		<meta name="keywords" content="porfolio, webdesign, UI/UX">
+		<meta name="author" content="Opemipo Robert">
+		<!--Bootstrap CSS-->
+		<link href="bootstrap/css/bootstrap.css" rel='stylesheet' type='text/css'>
+		<link href="css/index.css" rel="stylesheet" type="text/css">
+		<link href="staticass/css/all.css" rel="stylesheet"> 
+		<style> </style>
+		
+	</head>
+
+
+
+	<body>
+	<div id='header'>
+		<div class='container'>
+			<nav>
+				<img src='images/OR (800 × 800px).png' class="logo" style="height:100px">
+				<ul id='sidemenu'>
+					<li><a href='#header'>HOME</a></li>
+					<li><a href='#about'>About</a></li>
+					<li><a href='#services'>Services</a></li>
+					<li><a href='#portfolio'>Portfolio</a></li>
+					<li><a href='#contact'>Contact</a></li>
+					<i class="fa-solid fa-times" onclick='closemenu()'></i>
+				</ul>
+				<i class="fa-solid fa-bars onclick='openmenu()'"></i>
+				
+			</nav>
+			<div class="header-text">
+				<p>UI/UX Designer</p>
+				<h1>Hi, I'm <span>Opemipo</span><br> Roberts From Nigeria</h1>
+			</div>
+				<!-- about -->
+			<div id="about">	
+				<div class='container'>
+					<div class='row'>
+						<div class='about-col-1'>
+							<img src='images/IMG_4515.jpg' style='height:500px;'>
+						
+						
+						</div>
+						<div class='about-col-2'>
+							<h1 class='sub-title'>About Me</h1>
+							<p>Random Text. Random Text. Random Text. Random Text.Random Text.Random Text.</p>
+							
+							<div class='tab-titles'>
+								<p class='tab-links active-link' onclick="opentab('skills')">Skills</p>
+								<p class='tab-links' onclick="opentab('experience')">Experience</p>
+								<p class='tab-links' onclick="opentab('education')">Education</p>
+							</div>
+							<div class='tab-content active-tab' id="skills">
+								<ul>
+									<li><span>UI/UX</span><br>Designing Web/APP interfaces</li>
+									<li><span>Web Development</span><br>Designing Web/APP interfaces</li>
+									<li><span>APP Development</span><br>Building Andriod/ios apps</li>
+								</ul>
+							</div>
+							
+							<div class='tab-content' id="experience">
+								<ul>
+									<li><span>2022- current</span><br>MOAT ACADEMY</li>
+									
+								</ul>
+							</div>
+							<div class='tab-content' id="education">
+								<ul>
+									<li><span>2017-2021</span><br>Covenant University</li>
+									
+								
+								
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		<!-- services -->
+		<div id='services'>
+		<div class='container'>
+			<h1 class='sub-title'>Services</h1>
+			<!-- <div class='services-list'> -->
+				<!-- <h2>Web Design</h2> -->
+				<!-- <p>BLAH BLAH BLAH BLAH</p> -->
+			<!-- </div> -->
+			<div class="accordion accordion-flush" id="accordionFlushExample">
+  <div class="accordion-item" style='background-color:rgb(0,63,145)'>
+    <h2 class="accordion-header" id="flush-headingOne">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+        WEB DESIGN
+      </button>
+    </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+    </div>
+  </div>
+  <div class="accordion-item "style='background-color:rgb(0,63,145)'>
+    <h2 class="accordion-header " id="flush-headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+		UI/UX
+      </button>
+    </h2>
+    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+    </div>
+  </div>
+  <div class="accordion-item"style='background-color:rgb(0,63,145)'>
+    <h2 class="accordion-header" id="flush-headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+        APP-DESIGN
+      </button>
+    </h2>
+    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+    </div>
+  </div>
+</div>
+		</div>
+	</div>
+			
+		<!-- portfolio -->	
+		<div id='portfolio'>	
+			<div class="container">
+				<h1 class='sub-title'>MY WORK</h1>
+				<div class='work-list'>
+					<div class="work">
+						<img src='images/1.jpeg' alt="">
+						<div class='layer'>
+							<h3>TEEN HUB APP</h3>
+							<p>App for checking on teenagers</p>
+							<!-- <a href='#'><i class="fa-solid fa-arrow-up-right-from-square"></i></a> -->
+						</div>
+					</div>
+					<div class="work">
+						<img src='images/2.jpeg' alt="">
+						<div class='layer'>
+							<h3>Pink IT woman ]</h3>
+							<p>For Women</p>
+							<a href='#'><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+						</div>
+					</div>
+					<div class="work">
+						<img src='images/3.jpeg' alt="">
+						<div class='layer'>
+							<h3>Architecture app</h3>
+							<p>Architecture enquiries</p>
+							<a href='#'><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+						</div>
+					</div>
+					<div class="work">
+						<img src='images/4.jpeg' alt="">
+						<div class='layer'>
+							<h3>Facebook APP</h3>
+							<p>Social media recreation</p>
+							<a href='#'><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+						</div>
+					</div>
+				</div>
+				<a href='#' class='btn'>See more </a>
+			</div>
+		</div>
+		<!-- contact us -->	
+		<div id="contact">	
+			<div class='container'>
+				<div class='contact-left'>
+					<h1 class='sub-title'>ConTact Us</h1>
+					<p><i class="fa-solid fa-paper-plane"></i>opemipo.roberts@yahoo.co.uk</p>
+					<p><i class="fa-solid fa-square-phone"></i>4443332134</p>
+		
+					<div class='social-icons'>
+						<a href='#'><i class="fa-brands fa-facebook"></i></a>
+						<a href='#'><i class="fa-brands fa-twitter"></i></a>
+						<a href='#'><i class="fa-brands fa-instagram"></i></a>
+						<a href='blank'><i class="fa-brands fa-linkedin"></i></a>
+					</div>
+					<a href='images/ONAOPEMIPO ROBERTS_ CV.pdf' class='btn btn2'>DOWNLOAD CV</a>
+				</div>
+				<div class='contact-right'>
+					<form action='' method='get'>
+					
+						<input type='text' name='Name' placeholder="Your name" required >
+						<input type='email' name='email' placeholder="Your Email" required >
+						<textarea name='Message'  rows='6' placeholder='Your Message' ></textarea>
+						<button type='Submit' class='btn btn2'>Submit</button>
+					
+					
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class='copyright'>
+			<p> Copyright &copy Opemipo. Brought to you with <i class="fa-solid fa-heart"></i> </p>
+		
+		</div>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		</div>
+		</div>
+		</div>
+		
+	<script src='bootstrap/js/bootstrap.bundle.min.js' type=''></script>
+	<script>
+		var sidemenu = document.getElementById('sidemenu');
+		
+		function openmenu(){
+			sidemenu.style.right='0';
+		
+		
+		}
+		function closemenu(){
+			sidemenu.style.right='-200px';
+		
+		
+		}
+	
+	
+	
+	
+	
+	</script>
+	</body>
+</html>
